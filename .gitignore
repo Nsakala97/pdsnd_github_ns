@@ -1,1 +1,4 @@
-.github/**
+#Ignore csv files
+.github
+*.csv
+
