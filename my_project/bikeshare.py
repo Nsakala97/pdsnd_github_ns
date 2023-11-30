@@ -222,7 +222,7 @@ def user_stats(df):
 
 #This is for raw data upon user request.
 
-def raw_data_request_function(df):
+def request_function(df):
     start_at = 0
     df_size = 5
 
@@ -258,7 +258,7 @@ def main():
         raw_data_request = input('\nWould you like to see the raw data output? Enter yes or no.\n')
         if raw_data_request.lower() == 'yes':
            
-           raw_data_request_function(df)
+           request_function(df)
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
