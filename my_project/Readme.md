@@ -18,6 +18,12 @@ counts of each user type
 counts of each gender
 earliest, most recent, most common year of birth
 _
+**Files Used**
+`Files used in this project include:
+1.chicago.csv
+2.new_york_city.csv
+3.washington.csv
+`
 **Useful Tools**
 1.https://www.geeksforgeeks.org/how-to-get-the-minimum-value-from-the-pandas-dataframe-in-python/
 2.https://matcha.fyi/python-placeholder/#:~:text=In%20Python%2C%20you%20can%20use%20%7B%7D%20as%20placeholders,in%20relation%20to%20the%20%7B%7D%20as%20it%20appears.
