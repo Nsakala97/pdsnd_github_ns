@@ -9,26 +9,27 @@ Bikeshare Analysis
 ### Description
 This bike share project was done to analyse bike share data from different cities.
 The following things were covered
-1.Popular times of travel
-most common month
-most common day of week
-most common hour of day
-2.Popular stations and trip
-most common start station
-most common end station
-most common trip from start to end
-3.Trip duration
-total travel time
-average travel time
-4.User info
-counts of each user type
-counts of each gender
-earliest, most recent, most common year of birth
+###1.Popular times of travel\
+most common month\
+most common day of week\
+most common hour of day\
+
+###2.Popular stations and trip\
+most common start station\
+most common end station\
+most common trip from start to end\
+###3.Trip duration\
+total travel time\
+average travel time\
+4.User info\
+counts of each user type\
+counts of each gender\
+earliest, most recent, most common year of birth\
 
 ### Files used
-1.chicago.csv
-2.new_york_city.csv
-3.washington.csv
+1.chicago.csv\
+2.new_york_city.csv\
+3.washington.csv\
 
 ### Credits
 1.https://www.geeksforgeeks.org/how-to-get-the-minimum-value-from-the-pandas-dataframe-in-python/
