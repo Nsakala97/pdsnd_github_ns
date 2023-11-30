@@ -1,17 +1,38 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+>**Note** This is a project in python
 
 ### Date created
-Include the date you created this project and README file.
+30-11-2023
 
 ### Project Title
-Replace the Project Title
+Bikeshare Analysis
 
 ### Description
-Describe what your project is about and what it does
+This bike share project was done to analyse bike share data from different cities.
+The following things were covered
+1.Popular times of travel
+most common month
+most common day of week
+most common hour of day
+2.Popular stations and trip
+most common start station
+most common end station
+most common trip from start to end
+3.Trip duration
+total travel time
+average travel time
+4.User info
+counts of each user type
+counts of each gender
+earliest, most recent, most common year of birth
 
 ### Files used
-Include the files used
+1.chicago.csv
+2.new_york_city.csv
+3.washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+1.https://www.geeksforgeeks.org/how-to-get-the-minimum-value-from-the-pandas-dataframe-in-python/
+2.https://matcha.fyi/python-placeholder/#:~:text=In%20Python%2C%20you%20can%20use%20%7B%7D%20as%20placeholders,in%20relation%20to%20the%20%7B%7D%20as%20it%20appears.
+3.https://realpython.com/python-min-and-max/
+4.Udacity course content
 
