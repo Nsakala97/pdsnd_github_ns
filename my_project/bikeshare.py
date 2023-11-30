@@ -7,6 +7,7 @@ city_data = {'chicago': 'chicago.csv', 'new york': 'new_york_city.csv', 'washing
 acceptable_months = ["all", "january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"]
 acceptable_days = ["all", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
 acceptable_cities = ["all", "chicago", "new york", "washington"]
+#This function gets user input to be used as filters
 
 def get_filters():
     user_input_city = user_input_month = user_input_day = None  # Initialize variable
@@ -55,7 +56,7 @@ def get_filters():
     return user_input_city, user_input_month, user_input_day
 
 
-
+#This function loads data based on the filters provided
 def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
@@ -96,7 +97,7 @@ def load_data(city, month, day):
         
 
     return df
-
+#This function displays time statistics based on the data loaded
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
     
@@ -221,7 +222,7 @@ def user_stats(df):
 
 #This is for raw data upon user request.
 
-def raw_data_request_function(df):
+def request_function(df):
     start_at = 0
     df_size = 5
 
@@ -257,7 +258,7 @@ def main():
         raw_data_request = input('\nWould you like to see the raw data output? Enter yes or no.\n')
         if raw_data_request.lower() == 'yes':
            
-           raw_data_request_function(df)
+           request_function(df)
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
